@@ -11,3 +11,5 @@ C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.exe
 C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.pdb
 C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHRUserInterface.Forms.MainForm.resources
 C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.UserInterface.Properties.Resources.resources
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.Contracts.ContractsForm.resources
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.UserInterface.Forms.Employees.EmployeesForm.resources

@@ -30,26 +30,28 @@
         {
             this.tcMain = new System.Windows.Forms.TabControl();
             this.tpConfiguration = new System.Windows.Forms.TabPage();
+            this.btnPosition = new System.Windows.Forms.Button();
             this.splitter5 = new System.Windows.Forms.Splitter();
+            this.btnDepartments = new System.Windows.Forms.Button();
             this.splitter4 = new System.Windows.Forms.Splitter();
+            this.btnSalaries = new System.Windows.Forms.Button();
             this.splitter3 = new System.Windows.Forms.Splitter();
+            this.btnOrganizationalStructure = new System.Windows.Forms.Button();
             this.splitter2 = new System.Windows.Forms.Splitter();
+            this.btnContract = new System.Windows.Forms.Button();
             this.splitter1 = new System.Windows.Forms.Splitter();
+            this.btnEmployees = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ssMain = new System.Windows.Forms.StatusStrip();
             this.tsslVersion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.pMain = new System.Windows.Forms.Panel();
             this.tsslDatabase = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslUser = new System.Windows.Forms.ToolStripStatusLabel();
-            this.btnPosition = new System.Windows.Forms.Button();
-            this.btnDepartments = new System.Windows.Forms.Button();
-            this.btnSalaries = new System.Windows.Forms.Button();
-            this.btnOrganizationalStructure = new System.Windows.Forms.Button();
-            this.btnContract = new System.Windows.Forms.Button();
-            this.btnEmployees = new System.Windows.Forms.Button();
+            this.pMain = new System.Windows.Forms.Panel();
+            this.tcTabs = new System.Windows.Forms.TabControl();
             this.tcMain.SuspendLayout();
             this.tpConfiguration.SuspendLayout();
             this.ssMain.SuspendLayout();
+            this.pMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcMain
@@ -85,6 +87,20 @@
             this.tpConfiguration.Text = "Ogólne";
             this.tpConfiguration.UseVisualStyleBackColor = true;
             // 
+            // btnPosition
+            // 
+            this.btnPosition.BackColor = System.Drawing.Color.White;
+            this.btnPosition.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnPosition.Image = global::SystemHR.UserInterface.Properties.Resources.position;
+            this.btnPosition.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPosition.Location = new System.Drawing.Point(673, 3);
+            this.btnPosition.Name = "btnPosition";
+            this.btnPosition.Size = new System.Drawing.Size(115, 39);
+            this.btnPosition.TabIndex = 10;
+            this.btnPosition.Text = "Stanowiska";
+            this.btnPosition.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPosition.UseVisualStyleBackColor = false;
+            // 
             // splitter5
             // 
             this.splitter5.Location = new System.Drawing.Point(668, 3);
@@ -92,6 +108,20 @@
             this.splitter5.Size = new System.Drawing.Size(5, 39);
             this.splitter5.TabIndex = 9;
             this.splitter5.TabStop = false;
+            // 
+            // btnDepartments
+            // 
+            this.btnDepartments.BackColor = System.Drawing.Color.White;
+            this.btnDepartments.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnDepartments.Image = global::SystemHR.UserInterface.Properties.Resources.programing;
+            this.btnDepartments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDepartments.Location = new System.Drawing.Point(583, 3);
+            this.btnDepartments.Name = "btnDepartments";
+            this.btnDepartments.Size = new System.Drawing.Size(85, 39);
+            this.btnDepartments.TabIndex = 8;
+            this.btnDepartments.Text = "Działy";
+            this.btnDepartments.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDepartments.UseVisualStyleBackColor = false;
             // 
             // splitter4
             // 
@@ -101,6 +131,20 @@
             this.splitter4.TabIndex = 7;
             this.splitter4.TabStop = false;
             // 
+            // btnSalaries
+            // 
+            this.btnSalaries.BackColor = System.Drawing.Color.White;
+            this.btnSalaries.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnSalaries.Image = global::SystemHR.UserInterface.Properties.Resources.salary;
+            this.btnSalaries.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalaries.Location = new System.Drawing.Point(426, 3);
+            this.btnSalaries.Name = "btnSalaries";
+            this.btnSalaries.Size = new System.Drawing.Size(152, 39);
+            this.btnSalaries.TabIndex = 6;
+            this.btnSalaries.Text = "Wynagordzenia";
+            this.btnSalaries.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSalaries.UseVisualStyleBackColor = false;
+            // 
             // splitter3
             // 
             this.splitter3.Location = new System.Drawing.Point(421, 3);
@@ -108,6 +152,20 @@
             this.splitter3.Size = new System.Drawing.Size(5, 39);
             this.splitter3.TabIndex = 5;
             this.splitter3.TabStop = false;
+            // 
+            // btnOrganizationalStructure
+            // 
+            this.btnOrganizationalStructure.BackColor = System.Drawing.Color.White;
+            this.btnOrganizationalStructure.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnOrganizationalStructure.Image = global::SystemHR.UserInterface.Properties.Resources.group;
+            this.btnOrganizationalStructure.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOrganizationalStructure.Location = new System.Drawing.Point(228, 3);
+            this.btnOrganizationalStructure.Name = "btnOrganizationalStructure";
+            this.btnOrganizationalStructure.Size = new System.Drawing.Size(193, 39);
+            this.btnOrganizationalStructure.TabIndex = 4;
+            this.btnOrganizationalStructure.Text = "Struktura organizacyjna";
+            this.btnOrganizationalStructure.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOrganizationalStructure.UseVisualStyleBackColor = false;
             // 
             // splitter2
             // 
@@ -117,6 +175,21 @@
             this.splitter2.TabIndex = 3;
             this.splitter2.TabStop = false;
             // 
+            // btnContract
+            // 
+            this.btnContract.BackColor = System.Drawing.Color.White;
+            this.btnContract.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnContract.Image = global::SystemHR.UserInterface.Properties.Resources.contract__1_1;
+            this.btnContract.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnContract.Location = new System.Drawing.Point(128, 3);
+            this.btnContract.Name = "btnContract";
+            this.btnContract.Size = new System.Drawing.Size(95, 39);
+            this.btnContract.TabIndex = 2;
+            this.btnContract.Text = "Umowy";
+            this.btnContract.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnContract.UseVisualStyleBackColor = false;
+            this.btnContract.Click += new System.EventHandler(this.btnContract_Click);
+            // 
             // splitter1
             // 
             this.splitter1.Location = new System.Drawing.Point(123, 3);
@@ -124,6 +197,21 @@
             this.splitter1.Size = new System.Drawing.Size(5, 39);
             this.splitter1.TabIndex = 1;
             this.splitter1.TabStop = false;
+            // 
+            // btnEmployees
+            // 
+            this.btnEmployees.BackColor = System.Drawing.Color.White;
+            this.btnEmployees.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnEmployees.Image = global::SystemHR.UserInterface.Properties.Resources.profile2;
+            this.btnEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmployees.Location = new System.Drawing.Point(3, 3);
+            this.btnEmployees.Name = "btnEmployees";
+            this.btnEmployees.Size = new System.Drawing.Size(120, 39);
+            this.btnEmployees.TabIndex = 0;
+            this.btnEmployees.Text = "Pracownicy";
+            this.btnEmployees.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEmployees.UseVisualStyleBackColor = false;
+            this.btnEmployees.Click += new System.EventHandler(this.btnEmployees_Click);
             // 
             // tabPage2
             // 
@@ -153,15 +241,6 @@
             this.tsslVersion.Size = new System.Drawing.Size(81, 17);
             this.tsslVersion.Text = "Wersja: 1.0.0.0";
             // 
-            // pMain
-            // 
-            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pMain.Location = new System.Drawing.Point(0, 75);
-            this.pMain.Name = "pMain";
-            this.pMain.Size = new System.Drawing.Size(874, 464);
-            this.pMain.TabIndex = 2;
-            this.pMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
             // tsslDatabase
             // 
             this.tsslDatabase.Image = global::SystemHR.UserInterface.Properties.Resources.server_storage;
@@ -176,89 +255,29 @@
             this.tsslUser.Size = new System.Drawing.Size(191, 17);
             this.tsslUser.Text = "Użytkownik: Jakub Przybyłowski";
             // 
-            // btnPosition
+            // pMain
             // 
-            this.btnPosition.BackColor = System.Drawing.Color.White;
-            this.btnPosition.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnPosition.Image = global::SystemHR.UserInterface.Properties.Resources.position;
-            this.btnPosition.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPosition.Location = new System.Drawing.Point(673, 3);
-            this.btnPosition.Name = "btnPosition";
-            this.btnPosition.Size = new System.Drawing.Size(115, 39);
-            this.btnPosition.TabIndex = 10;
-            this.btnPosition.Text = "Stanowiska";
-            this.btnPosition.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPosition.UseVisualStyleBackColor = false;
+            this.pMain.Controls.Add(this.tcTabs);
+            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pMain.Location = new System.Drawing.Point(0, 75);
+            this.pMain.Name = "pMain";
+            this.pMain.Size = new System.Drawing.Size(874, 464);
+            this.pMain.TabIndex = 2;
+            this.pMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // btnDepartments
+            // tcTabs
             // 
-            this.btnDepartments.BackColor = System.Drawing.Color.White;
-            this.btnDepartments.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnDepartments.Image = global::SystemHR.UserInterface.Properties.Resources.programing;
-            this.btnDepartments.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDepartments.Location = new System.Drawing.Point(583, 3);
-            this.btnDepartments.Name = "btnDepartments";
-            this.btnDepartments.Size = new System.Drawing.Size(85, 39);
-            this.btnDepartments.TabIndex = 8;
-            this.btnDepartments.Text = "Działy";
-            this.btnDepartments.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDepartments.UseVisualStyleBackColor = false;
-            // 
-            // btnSalaries
-            // 
-            this.btnSalaries.BackColor = System.Drawing.Color.White;
-            this.btnSalaries.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnSalaries.Image = global::SystemHR.UserInterface.Properties.Resources.salary;
-            this.btnSalaries.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalaries.Location = new System.Drawing.Point(426, 3);
-            this.btnSalaries.Name = "btnSalaries";
-            this.btnSalaries.Size = new System.Drawing.Size(152, 39);
-            this.btnSalaries.TabIndex = 6;
-            this.btnSalaries.Text = "Wynagordzenia";
-            this.btnSalaries.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSalaries.UseVisualStyleBackColor = false;
-            // 
-            // btnOrganizationalStructure
-            // 
-            this.btnOrganizationalStructure.BackColor = System.Drawing.Color.White;
-            this.btnOrganizationalStructure.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnOrganizationalStructure.Image = global::SystemHR.UserInterface.Properties.Resources.group;
-            this.btnOrganizationalStructure.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrganizationalStructure.Location = new System.Drawing.Point(228, 3);
-            this.btnOrganizationalStructure.Name = "btnOrganizationalStructure";
-            this.btnOrganizationalStructure.Size = new System.Drawing.Size(193, 39);
-            this.btnOrganizationalStructure.TabIndex = 4;
-            this.btnOrganizationalStructure.Text = "Struktura organizacyjna";
-            this.btnOrganizationalStructure.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnOrganizationalStructure.UseVisualStyleBackColor = false;
-            // 
-            // btnContract
-            // 
-            this.btnContract.BackColor = System.Drawing.Color.White;
-            this.btnContract.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnContract.Image = global::SystemHR.UserInterface.Properties.Resources.contract__1_1;
-            this.btnContract.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnContract.Location = new System.Drawing.Point(128, 3);
-            this.btnContract.Name = "btnContract";
-            this.btnContract.Size = new System.Drawing.Size(95, 39);
-            this.btnContract.TabIndex = 2;
-            this.btnContract.Text = "Umowy";
-            this.btnContract.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnContract.UseVisualStyleBackColor = false;
-            // 
-            // btnEmployees
-            // 
-            this.btnEmployees.BackColor = System.Drawing.Color.White;
-            this.btnEmployees.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnEmployees.Image = global::SystemHR.UserInterface.Properties.Resources.profile2;
-            this.btnEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmployees.Location = new System.Drawing.Point(3, 3);
-            this.btnEmployees.Name = "btnEmployees";
-            this.btnEmployees.Size = new System.Drawing.Size(120, 39);
-            this.btnEmployees.TabIndex = 0;
-            this.btnEmployees.Text = "Pracownicy";
-            this.btnEmployees.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEmployees.UseVisualStyleBackColor = false;
+            this.tcTabs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcTabs.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.tcTabs.ItemSize = new System.Drawing.Size(105, 18);
+            this.tcTabs.Location = new System.Drawing.Point(0, 0);
+            this.tcTabs.Name = "tcTabs";
+            this.tcTabs.SelectedIndex = 0;
+            this.tcTabs.Size = new System.Drawing.Size(874, 464);
+            this.tcTabs.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tcTabs.TabIndex = 0;
+            this.tcTabs.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tcTabs_DrawItem);
+            this.tcTabs.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tcTabs_MouseDown);
             // 
             // MainForm
             // 
@@ -269,6 +288,7 @@
             this.Controls.Add(this.ssMain);
             this.Controls.Add(this.tcMain);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
@@ -278,6 +298,7 @@
             this.tpConfiguration.ResumeLayout(false);
             this.ssMain.ResumeLayout(false);
             this.ssMain.PerformLayout();
+            this.pMain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,5 +325,6 @@
         private System.Windows.Forms.ToolStripStatusLabel tsslDatabase;
         private System.Windows.Forms.ToolStripStatusLabel tsslUser;
         private System.Windows.Forms.Panel pMain;
+        private System.Windows.Forms.TabControl tcTabs;
     }
 }

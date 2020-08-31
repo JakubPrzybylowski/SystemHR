@@ -50,14 +50,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Contracts\ContractsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Contracts\ContractsForm.Designer.cs">
+      <DependentUpon>ContractsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Employees\Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Employees\Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ResourceHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Contracts\ContractsForm.resx">
+      <DependentUpon>ContractsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Employees\Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,16 +110,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\profile.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\profile1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\contract.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\contract %281%29.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\profile2.png" />
@@ -109,16 +122,25 @@
     <None Include="Resources\contract %281%291.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contract %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\group.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\salary.png" />
+    <None Include="Resources\position.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\programing.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\position.png" />
+    <None Include="Resources\salary.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\server-storage.png" />
