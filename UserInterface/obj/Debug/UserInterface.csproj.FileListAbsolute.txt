@@ -1,0 +1,13 @@
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\bin\Debug\SystemHR.exe.config
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\bin\Debug\SystemHR.exe
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\bin\Debug\SystemHR.pdb
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\bin\Debug\DataAccessLayer.dll
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\bin\Debug\DataAccessLayer.pdb
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.exe
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.pdb
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHRUserInterface.Forms.MainForm.resources
+C:\Users\Jakub\source\repos\SystemHR\UserInterface\obj\Debug\SystemHR.UserInterface.Properties.Resources.resources
